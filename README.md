@@ -22,3 +22,5 @@ Bem-vindo ao repositório do nosso projeto frontend! 🚀 Este projeto foi desen
 Lucas Santos 📧 lucasdsantos2201@gmail.com 🔗 (https://www.linkedin.com/in/lucas-santos-a620011b9/)<br>
 Roniely Pinheiro 📧 roniely_pinheiro@hotmail.com 🔗 (https://www.linkedin.com/in/roniely-pinheiro-6b1544178/)<br>
 Rafael Maciel 📧 rafaelmn934@gmail.com 🔗 (https://github.com/Rafaelmacie/)<br>
+William José 📧 williamjosebjj6@gmail.com 🔗(https://www.linkedin.com/in/william-josep/)<br>
+
