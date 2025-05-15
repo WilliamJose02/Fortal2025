@@ -1,11 +1,9 @@
 /* ALTERAÇÕES GERAIS */
-
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
 
-*{
+* {
     box-sizing: border-box;
 }
-
 html, body {
     margin: 0;
     padding: 0;
@@ -23,7 +21,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
-
 main {
     flex-direction: column;
     display: flex;
@@ -31,11 +28,6 @@ main {
     justify-content: center;
     width: 80vw;
 }
-
-
-
-/* HEADER/NAVBAR */
-
 header {
     padding: 20px;
     width: 100%;
@@ -51,7 +43,6 @@ nav {
     align-items: center;
     justify-content: center;
 }
-
 .logo {
     max-width: 250px;
 }
@@ -60,19 +51,14 @@ nav {
     height: 5em;
     border: 1px solid #000;
 }
-
-
-
-/* SEÇÃO DE INFORMAÇÕES DO PROJETO */
-
 .secao-sobre {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
 }
+
 .secao-sobre figure {
-    
     width: 100%;
     max-width: 1100px;
     aspect-ratio: 16 / 9;
@@ -80,15 +66,18 @@ nav {
     border-radius: 10px;
     box-shadow: 1px 1px 10px 0px;
 }
+
 .secao-sobre img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
+
 .secao-sobre p {
     color: #222;
 }
+
 .programacao {
     width: 100%;
     display: flex;
@@ -101,18 +90,14 @@ nav {
     margin-bottom: 20px;
 }
 
-
-
-/* FORMULÁRIO DE INSCRIÇÃO */
-
-#sub-container{
+#sub-container {
     display: flex;
     width: 100%;
     flex-direction: column;
     align-items:center;
 }
 
-#form-container{
+#form-container {
     flex: 1;
     background-color: #ffffff;
     color: #ffffff;
@@ -122,7 +107,7 @@ nav {
     box-shadow: 1px 1px 1px 1px rgb(190, 190, 190);
 }
 
-#form-inner{
+#form-inner {
     margin: 3rem;
     padding: 3rem;
     border: 1px solid #aaa;
@@ -131,65 +116,77 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-  
 }
-#form-inner h3{
+
+#form-inner h3 {
     font-size: 2rem;
     margin-bottom: 1rem;
     color: black;
 }
-#form-inner p{
+
+#form-inner p {
     margin-bottom: 2rem;
 }
 
-#register-form{
+#register-form {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     margin-bottom: 2rem;
 }
-#register-form input{
+
+#name-container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#register-form input {
     padding: 0.8rem 2.6rem;
     border: 1px solid rgb(165, 165, 165);
     border-radius: 8px;
     width: 100%;
 }
-#register-form input[type="submit"]{
-    background-color: transparent;
+
+#email {
+    min-width: 100%;
+}
+
+#register-form input[type="submit"] {
+    background-color: #7B2CBF;
     color: #FFF;
-    border: 1px solid #aaa;
+    border: none;
     font-size: 1.1rem;
     font-weight: bold;
     cursor: pointer;
     transition: 0.4s;
-    background-color:#d9a0ff;
-
 }
 
-#register-form input[type="submit"]:hover{
-  background-color: #f1f1f1;
-  color: #d9a0ff;
-    
+#register-form input[type="submit"]:hover {
+    background-color: #9D4EDD;
 }
 
-#name-container{
-    display: flex;
-    gap: 0.5rem;
+#benefits {
+    text-align: left;
+    align-self: start;
 }
 
-#email{
-    min-width: 100%;
+#benefits h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
 }
 
+#benefits ul {
+    list-style-position: inside;
+}
 
+#benefits li {
+    margin-bottom: 0.5rem;
+}
 
-/* GALERIA DE IMAGENS */
-
-.secao-galeria{
+.secao-galeria {
     width: 100%;
     margin-top: 30px;
 }
-
 .galeria {
     margin-top: 30px;
     display: flex;
@@ -198,6 +195,7 @@ nav {
     justify-content: center;
     border-top: 1px solid #CCC;
 }
+
 .galeria figure {
     width: 300px;
     aspect-ratio: 1 / 1;
@@ -205,16 +203,13 @@ nav {
     border-radius: 10px;
     box-shadow: 1px 1px 10px 0px;
 }
+
 .galeria img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
-
-
-
-/* RODAPÉ */
 
 footer {
     margin-top: 10%;
@@ -287,5 +282,4 @@ footer {
         justify-content: center;
         flex-direction: column;
     }
-    
-  }
+}
